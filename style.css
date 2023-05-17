@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+p{
+    font-size: 1.1rem;
+}
+body{
+    background-color: white;
+
+}
+main{
+    display: flex;
+    width: 80vh;
+    margin: auto;
+    margin-top: 10rem;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 30px;
+    margin: auto;
+    margin: 0;
+    background-image: linear-gradient(to bottom,  hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    text-align: center;
+    width: 20vw;
+    height: 60vh;
+    gap: 2rem;
+    padding: 2rem;
+    
+}
+.box1 > h1{
+    color: hsl(241, 100%, 89%);
+    font-family: sans-serif;
+    
+}
+.box1 > h2{
+    color: white;
+    font-family: sans-serif;
+}
+.content1{
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+    height: 20vh;
+    width: 10vw;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    margin: auto;
+    
+}
+.number{
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: white;
+   
+}
+.number2{
+    color:hsl(241, 100%, 89%);
+}
+.p1{
+    color: white;
+}
+.box2{
+    box-shadow: 1px 9px 9px  rgba(0, 0, 0, 0.507);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 60vh;
+    gap: 2rem;
+    padding: 2rem;
+}
+.box2 > h2{
+    font-family: sans-serif;
+    
+}
+button{
+    height: 5vh;
+    border-radius: 100px;
+    border: none;
+    background-image: linear-gradient(to bottom,  hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: white;
+}
+.content2{
+    display: flex;
+    text-align: center;
+   align-items: center;
+    gap: 7rem;
+    background-color: hsl(0, 73%, 93%);
+    height: 5vh;
+    border-radius: 10px;
+   padding: 10px;
+}
+.content3{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+   align-items: center;
+    gap: 7rem;
+    background-color:  hsl(38, 61%, 93%);
+    height: 5vh;
+    border-radius: 10px;
+   padding: 10px;
+}
+.content4{
+    display: flex;
+    text-align: center;
+   align-items: center;
+    gap: 7rem;
+    background-color:  hsl(167, 49%, 91%);
+    height: 5vh;
+    border-radius: 10px;
+   padding: 10px;
+}
+.content5{
+    display: flex;
+    text-align: center;
+   align-items: center;
+    gap: 7rem;
+    background-color: hsl(236, 74%, 93%);
+    height: 5vh;
+    border-radius: 10px;
+   padding: 10px;
+}
+
+.reaction{
+    color:  hsl(0, 100%, 67%);
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.Memory{
+    color: hsl(39, 100%, 56%);
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.verbal{
+    color:hsl(166, 100%, 37%);
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.visual{
+    color: hsl(234, 85%, 45%);
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+div{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+#section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media (max-width: 1700px) {
+    .box1{
+        width: 60vw;
+    }
+    .box2{
+        width: 60vw;
+    }
+    .content1{
+        width: 200px;
+        height: 200px;
+       
+    }
+    .content2{
+        height: 5vh;
+    }
+}
+@media (max-width: 760px){
+    .content1{
+        width: 100px;
+        height: 100px;
+       
+    }
+    .content2{
+        width: 100%;
+        height: 50%;
+    }
+    .content3{
+        width: 100%;
+        height: 50%;
+    }
+    .content4{
+        width: 100%;
+        height: 50%;
+    }
+    .content5{
+        width: 100%;
+        height: 50%;
+    }
+}
+@media (max-width: 776px){
+    main{
+        width: 100vw;
+    }
+    .content1{
+        width: 200px;
+        height: 200px;
+       
+    }
+}
+@media (max-width: 650px){
+   main{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
+
+   .box1{
+    width: 90vw;
+    margin: auto;
+   }
+   .box2{
+    width: 90vw;
+    margin: auto;
+    
+   }
+   .content1{
+    width: 100px;
+    height: 100px;
+   }
+}
+
